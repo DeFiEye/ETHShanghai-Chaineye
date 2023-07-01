@@ -90,7 +90,7 @@ class Swap:
                                             self.data[block] = []
                                         self.data[block].append({"timestamp":timestamp,"swapFrom":i['coins'][1],'swapTo':i['coins'][0],'fromVolume':from_volume,'toVolume':to_volume,'transcationHash':hash,'pool_address':address,"pool_name":i['name']})                 
                     if len(self.data.keys())>data_len:
-                        key_list = sorted(list(self.data.keys()))
+                        key_list = sorted(list(self.data.keys()), key=lambda x: int(x))
                         for i in key_list[:-data_len]:
                             del self.data[i]
                     self.now_block = new_block

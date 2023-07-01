@@ -1,6 +1,6 @@
-# ETHShanghai-Cryptohunt
+# ETHShanghai-Chaineye
 
-This is a project for ETHShanghai Hackathon. Team Cryptohunt
+This is a project for ETHShanghai Hackathon. Team Chaineye
 
 Building a crypto token monitor (transfer, swap, etc.) app leveraging Chainbase API
 
